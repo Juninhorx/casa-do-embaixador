@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/Prancheta\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    
+}
+header img {
+    width: 11rem;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao {
+    width: 11rem;
+    height: 3rem;
+    background: #d8295d;
+    border: none;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #eddf11;
+    font-weight: 900;
+    margin-top: 30vh;
+    transition: all 300ms ease-in-out;
+    animation: pulse 1s linear infinite;
+}
+.botao:hover {
+    transform: scale(1.2);
+}
+@keyframes pulse {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.2);
+    }
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1.0);
+    }
+    
+}
